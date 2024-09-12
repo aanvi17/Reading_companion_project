@@ -1,0 +1,371 @@
+2024-07-11 23:17:48,902 - __main__ - INFO - Loading tokenized dataset...
+2024-07-11 23:17:49,008 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-11 23:17:49,048 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-11 23:17:49,048 - __main__ - INFO - Loading tokenizer and model...
+2024-07-11 23:17:49,048 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-11 23:17:49,048 - __main__ - INFO - Using Hugging Face token: 
+2024-07-11 23:17:49,049 - __main__ - INFO - Attempting to load model...
+2024-07-11 23:17:49,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-11 23:17:49,724 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:17:49,957 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:26:26,090 - __main__ - INFO - Loading tokenized dataset...
+2024-07-11 23:26:26,102 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-11 23:26:26,152 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-11 23:26:26,153 - __main__ - INFO - Loading tokenizer and model...
+2024-07-11 23:26:26,153 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-11 23:26:26,154 - __main__ - INFO - Using Hugging Face token: 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
+2024-07-11 23:26:26,154 - __main__ - INFO - Attempting to load model...
+2024-07-11 23:26:26,158 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-11 23:26:26,870 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:26:27,533 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:26:27,553 - __main__ - ERROR - Failed to load model: __init__() got an unexpected keyword argument 'hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken'
+2024-07-11 23:26:27,561 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 37, in <module>
+    model = LlamaForCausalLM.from_pretrained(model_name, hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken=token)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\modeling_utils.py", line 3710, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken'
+
+2024-07-11 23:26:27,566 - __main__ - ERROR - Error occurred: __init__() got an unexpected keyword argument 'hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken'
+2024-07-11 23:26:27,568 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 37, in <module>
+    model = LlamaForCausalLM.from_pretrained(model_name, hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken=token)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\modeling_utils.py", line 3710, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'hf_OnYDarmvCcrtpacjucJcySZdRDVQQtOGvZtoken'
+
+2024-07-11 23:34:15,069 - __main__ - INFO - Loading tokenized dataset...
+2024-07-11 23:34:15,179 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-11 23:34:15,246 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-11 23:34:15,247 - __main__ - INFO - Loading tokenizer and model...
+2024-07-11 23:34:15,247 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-11 23:34:15,247 - __main__ - INFO - Using Hugging Face token: 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
+2024-07-11 23:34:15,247 - __main__ - INFO - Attempting to load model...
+2024-07-11 23:34:15,251 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-11 23:34:15,528 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:34:15,764 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-11 23:34:15,773 - __main__ - ERROR - Failed to load model: __init__() got an unexpected keyword argument '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'
+2024-07-11 23:34:15,778 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 37, in <module>
+    model = LlamaForCausalLM.from_pretrained(model_name, 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=token)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\modeling_utils.py", line 3710, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument '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'
+
+2024-07-11 23:34:15,782 - __main__ - ERROR - Error occurred: __init__() got an unexpected keyword argument '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'
+2024-07-11 23:34:15,783 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 37, in <module>
+    model = LlamaForCausalLM.from_pretrained(model_name, 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=token)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\modeling_utils.py", line 3710, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument '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'
+
+2024-07-11 23:36:33,737 - __main__ - INFO - Loading tokenized dataset...
+2024-07-11 23:36:33,754 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-11 23:36:33,795 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-11 23:36:33,795 - __main__ - INFO - Loading tokenizer and model...
+2024-07-11 23:36:33,796 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-11 23:36:33,796 - __main__ - INFO - Using Hugging Face token: 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
+2024-07-11 23:36:33,796 - __main__ - INFO - Attempting to load model...
+2024-07-11 23:36:33,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-11 23:36:34,102 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-11 23:36:34,394 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-11 23:40:57,801 - __main__ - INFO - Loading tokenized dataset...
+2024-07-11 23:40:57,891 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-11 23:40:57,926 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-11 23:40:57,928 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-11 23:40:57,929 - __main__ - INFO - Using Hugging Face token: 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
+2024-07-11 23:40:57,935 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-11 23:40:58,649 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-11 23:40:58,892 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-12 00:02:35,859 - __main__ - INFO - Loading tokenized dataset...
+2024-07-12 00:02:35,961 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-12 00:02:36,016 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-12 00:02:36,017 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-12 00:02:36,017 - __main__ - INFO - Attempting to load model...
+2024-07-12 00:02:36,020 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-12 00:02:36,336 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-12 00:02:36,852 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-17 14:27:54,508 - __main__ - INFO - Loading tokenized dataset...
+2024-07-17 14:27:54,599 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-17 14:27:54,775 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-17 14:27:54,775 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-17 14:27:54,775 - __main__ - INFO - Attempting to load model...
+2024-07-17 14:27:54,780 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-17 14:27:55,560 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-17 14:27:56,654 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-17 14:39:44,237 - __main__ - INFO - Loading tokenized dataset...
+2024-07-17 14:39:44,344 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-17 14:39:44,404 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-17 14:39:44,404 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-17 14:39:44,404 - __main__ - INFO - Attempting to load model...
+2024-07-17 14:39:44,407 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-17 14:39:44,772 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/tokenizer_config.json HTTP/11" 401 0
+2024-07-17 14:39:45,385 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 401 0
+2024-07-17 14:43:42,083 - __main__ - INFO - Loading tokenized dataset...
+2024-07-17 14:43:42,178 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-17 14:43:42,234 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-17 14:43:42,234 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-17 14:43:42,235 - __main__ - INFO - Attempting to load model...
+2024-07-17 14:43:42,244 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-17 14:43:42,579 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2024-07-17 14:46:27,667 - __main__ - INFO - Loading tokenized dataset...
+2024-07-17 14:46:27,765 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-17 14:46:27,818 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-17 14:46:27,820 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-17 14:46:27,820 - __main__ - INFO - Attempting to load model...
+2024-07-17 14:46:27,823 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-17 14:46:28,128 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-17 14:46:29,094 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-17 15:05:05,698 - __main__ - INFO - Loading tokenized dataset...
+2024-07-17 15:05:05,796 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-17 15:05:05,839 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-17 15:05:05,839 - __main__ - INFO - Using model name: meta-llama/Llama-2-7b-hf
+2024-07-17 15:05:05,853 - __main__ - INFO - Attempting to load model...
+2024-07-17 15:05:05,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-17 15:05:06,552 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-17 15:05:06,988 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:26:02,428 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:26:02,433 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:26:02,701 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:26:02,701 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:26:02,710 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:26:02,713 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:26:03,452 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:26:03,932 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:26:04,164 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:26:07,698 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:26:07,698 - filelock - DEBUG - Attempting to acquire lock 1863609383040 on C:\Users\aanvi\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-07-18 00:26:07,698 - filelock - DEBUG - Lock 1863609383040 acquired on C:\Users\aanvi\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-07-18 00:26:07,934 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/generation_config.json HTTP/11" 200 124
+2024-07-18 00:26:08,021 - filelock - DEBUG - Attempting to release lock 1863609383040 on C:\Users\aanvi\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-07-18 00:26:08,024 - filelock - DEBUG - Lock 1863609383040 released on C:\Users\aanvi\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-07-18 00:26:08,124 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:26:08,125 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:26:08,134 - __main__ - ERROR - Error occurred: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+2024-07-18 00:26:08,136 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 46, in <module>
+    training_args = TrainingArguments(
+  File "<string>", line 129, in __init__
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\training_args.py", line 1693, in __post_init__
+    self.device
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\training_args.py", line 2171, in device
+    return self._setup_devices
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\utils\generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\training_args.py", line 2051, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+
+2024-07-18 00:28:44,485 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:28:44,597 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:28:44,651 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:28:44,651 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:28:44,652 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:28:44,654 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:28:44,929 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:28:45,326 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:28:45,599 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:28:51,220 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:28:51,363 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:28:51,364 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:28:51,450 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:28:51,450 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:28:51,457 - __main__ - ERROR - Error occurred: 'test'
+2024-07-18 00:28:51,468 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 69, in <module>
+    eval_dataset=dataset['test'],
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\datasets\dataset_dict.py", line 75, in __getitem__
+    return super().__getitem__(k)
+KeyError: 'test'
+
+2024-07-18 00:34:26,204 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:34:26,298 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:34:26,646 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:34:26,646 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:34:26,647 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:34:26,649 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:34:27,038 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:34:28,067 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:34:28,407 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:34:31,309 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:34:31,449 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:34:31,455 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:34:31,491 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:34:31,494 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:34:31,542 - __main__ - INFO - Trainer initialized.
+2024-07-18 00:34:31,543 - __main__ - INFO - Training the model...
+2024-07-18 00:34:33,631 - __main__ - ERROR - Error occurred: expected sequence of length 1024 at dim 1 (got 9)
+2024-07-18 00:34:33,656 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 76, in <module>
+    trainer.train()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 2230, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\_utils\fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 92, in default_data_collator
+    return torch_default_data_collator(features)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 158, in torch_default_data_collator
+    batch[k] = torch.tensor([f[k] for f in features])
+ValueError: expected sequence of length 1024 at dim 1 (got 9)
+
+2024-07-18 00:45:49,441 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:45:49,467 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:45:49,658 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:45:49,658 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:45:49,660 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:45:49,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:45:50,380 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:45:50,803 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:45:51,477 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:45:54,516 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:45:54,626 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:45:54,626 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:45:54,744 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:45:54,746 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:45:54,845 - __main__ - INFO - Trainer initialized.
+2024-07-18 00:45:54,845 - __main__ - INFO - Training the model...
+2024-07-18 00:45:56,986 - __main__ - ERROR - Error occurred: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2024-07-18 00:45:56,994 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 80, in <module>
+    trainer.train()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 2230, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\_utils\fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 806, in torch_call
+    batch = pad_without_fast_tokenizer_warning(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3410, in pad
+    padding_strategy, _, max_length, _ = self._get_padding_truncation_strategies(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 2849, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+
+2024-07-18 00:48:54,918 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:48:55,017 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:48:55,133 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:48:55,133 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:48:55,139 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:48:55,142 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:48:55,821 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:48:56,199 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:48:56,935 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:48:59,303 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:48:59,406 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:48:59,407 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:48:59,438 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:48:59,439 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:48:59,475 - __main__ - INFO - Trainer initialized.
+2024-07-18 00:48:59,476 - __main__ - INFO - Training the model...
+2024-07-18 00:49:00,985 - __main__ - ERROR - Error occurred: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2024-07-18 00:49:00,994 - __main__ - DEBUG - Traceback (most recent call last):
+  File "d:\Pihu\Ppt_summarizer\scripts\test.py", line 80, in <module>
+    trainer.train()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\trainer.py", line 2230, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\utils\data\_utils\fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 806, in torch_call
+    batch = pad_without_fast_tokenizer_warning(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3410, in pad
+    padding_strategy, _, max_length, _ = self._get_padding_truncation_strategies(
+  File "C:\Users\aanvi\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 2849, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+
+2024-07-18 00:53:02,091 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:53:02,190 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:53:02,295 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:53:02,296 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:53:02,296 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:53:02,298 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:53:03,018 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:53:03,844 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:53:04,515 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:53:07,562 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:53:08,236 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:53:08,236 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:53:08,250 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:53:08,250 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:53:08,274 - __main__ - INFO - Trainer initialized.
+2024-07-18 00:53:08,274 - __main__ - INFO - Training the model...
+2024-07-18 00:56:13,109 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 00:56:13,210 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 00:56:13,276 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 00:56:13,276 - __main__ - INFO - Using model name: gpt2
+2024-07-18 00:56:13,276 - __main__ - INFO - Attempting to load model...
+2024-07-18 00:56:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 00:56:14,135 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 00:56:14,958 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:56:15,224 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 00:56:19,700 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 00:56:20,402 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 00:56:20,409 - __main__ - INFO - Setting up training arguments...
+2024-07-18 00:56:20,444 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 00:56:20,444 - __main__ - INFO - Initializing Trainer...
+2024-07-18 00:56:20,498 - __main__ - INFO - Trainer initialized.
+2024-07-18 00:56:20,498 - __main__ - INFO - Training the model...
+2024-07-18 01:39:37,402 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 01:39:37,754 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 01:39:37,851 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 01:39:37,851 - __main__ - INFO - Using model name: gpt2
+2024-07-18 01:39:37,851 - __main__ - INFO - Attempting to load model...
+2024-07-18 01:39:37,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 01:39:38,597 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 01:39:39,758 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 01:39:40,667 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 01:39:45,550 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 01:39:46,685 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 01:39:46,686 - __main__ - INFO - Setting up training arguments...
+2024-07-18 01:39:46,946 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 01:39:46,962 - __main__ - INFO - Initializing Trainer...
+2024-07-18 01:39:47,092 - __main__ - INFO - Trainer initialized.
+2024-07-18 01:39:47,092 - __main__ - INFO - Training the model...
+2024-07-18 01:41:50,175 - __main__ - INFO - Loading tokenized dataset...
+2024-07-18 01:41:50,204 - fsspec.local - DEBUG - open file: D:/Pihu/Ppt_summarizer/data/tokenized_dataset/dataset_dict.json
+2024-07-18 01:41:50,260 - __main__ - INFO - Tokenized dataset loaded successfully.
+2024-07-18 01:41:50,260 - __main__ - INFO - Using model name: gpt2
+2024-07-18 01:41:50,260 - __main__ - INFO - Attempting to load model...
+2024-07-18 01:41:50,265 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-18 01:41:51,040 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-18 01:41:53,978 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 01:41:54,217 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-18 01:41:57,055 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-18 01:41:57,713 - __main__ - INFO - Tokenizer and model loaded successfully.
+2024-07-18 01:41:57,713 - __main__ - INFO - Setting up training arguments...
+2024-07-18 01:41:57,753 - __main__ - INFO - Training arguments set up successfully.
+2024-07-18 01:41:57,754 - __main__ - INFO - Initializing Trainer...
+2024-07-18 01:41:57,777 - __main__ - INFO - Trainer initialized.
+2024-07-18 01:41:57,777 - __main__ - INFO - Training the model...
